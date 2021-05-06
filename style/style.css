@@ -4,7 +4,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 800;
 }
 
 .container {
@@ -109,7 +110,7 @@ body {
 }
 
 .idea-6 span {
-  font-size: 15rem;
+  font-size: 10rem;
 }
 
 .six {
@@ -118,8 +119,13 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .six .hat {
@@ -127,6 +133,7 @@ body {
   width: 80px;
   top: -35px;
   left: 41.5%;
+  display: none;
   /* transform: scale(0.1); */
 }
 
